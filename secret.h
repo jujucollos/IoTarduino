@@ -1,11 +1,7 @@
-#define WIFI_SSID "" // local WiFi name
-#define WIFI_KEY "" // local WiFi password
+#define WIFI_SSID "TCOM" // local WiFi name
+#define WIFI_KEY "<3Stephan<3" // local WiFi password
 
-// InfluxDB v2 server url, e.g. https://eu-central-1-1.aws.cloud2.influxdata.com (Use: InfluxDB UI -> Load Data -> Client Libraries)
-#define INFLUXDB_CLOUD_URL ""
-// InfluxDB v2 server or cloud API authentication token (Use: InfluxDB UI -> Data -> Tokens -> <select token>)
-#define INFLUXDB_CLOUD_TOKEN ""
-// InfluxDB v2 organization id (Use: InfluxDB UI -> User -> About -> Common Ids )
-#define INFLUXDB_CLOUD_ORG "123"
-// InfluxDB v2 bucket name (Use: InfluxDB UI ->  Data -> Buckets)
-#define INFLUXDB_CLOUD_BUCKET "mydata"
+#define INFLUXDB_CLOUD_URL "https://europe-west1-1.gcp.cloud2.influxdata.com/notebook/from/bucket/MyData"
+#define INFLUXDB_CLOUD_TOKEN "m8PkkqgADBq8p7xNaOlkMVnWxT7lzkUT5zQ_APe5Mz4D4RzthGK0-BBxYfCFxdyPrYvY56T-udVgLHPUgRxJrA=="
+#define INFLUXDB_CLOUD_ORG "epita"
+#define INFLUXDB_CLOUD_BUCKET "MyData"
