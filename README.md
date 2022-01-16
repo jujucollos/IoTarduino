@@ -1,10 +1,9 @@
 # PlantaX
 
-PlantaX est un appareil permettant de mesurer 4 facteurs importants dans la pousse d'une plante : 
+PlantaX est un appareil permettant de mesurer 3 facteurs importants dans la pousse d'une plante : 
 - Le niveau d'humidité de l'air
 - Le niveau d'humidité dans la terre
 - Le niveau d'eau
-- La température
 
 Ces données seront transmises à une base de données en ligne (InfluxDB) ce qui vous permettra de suivre l'évolution des conditions de pousse de votre plante.
 
